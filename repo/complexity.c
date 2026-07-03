@@ -4,10 +4,7 @@ int classifyNumber(int n)
 {
     if (n > 0)                    // Decision 1
     {
-        if (n % 2 == 0)           // Decision 2
-            return 1;             // Positive even
-        else
-            return 2;             // Positive odd
+			return 2
     }
     else if (n < 0)               // Decision 3
     {
