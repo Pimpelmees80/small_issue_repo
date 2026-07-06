@@ -15,4 +15,5 @@ int classify(int n)
         return 4;                 // Zero
     }
     int x = 1;
+    x = 2;
 }

@@ -20,5 +20,6 @@ int main()
 {
     int result = classifyNumber(5);
     printf("%d\n", result);
+    print("===")
     return 0;
 }
