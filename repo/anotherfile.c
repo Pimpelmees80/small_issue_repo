@@ -21,5 +21,6 @@ int classify(int n)
 
 int newfunction(void)
 {
-   print("only prints this")
+   print("only prints this");
+   int uni = 9;
 }
