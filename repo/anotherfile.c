@@ -18,3 +18,8 @@ int classify(int n)
     x = 2;
     x = 3;
 }
+
+int newfunction(void)
+{
+   print("only prints this")
+}
