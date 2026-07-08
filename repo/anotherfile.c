@@ -23,4 +23,8 @@ int newfunction(void)
 {
    print("only prints this");
    int uni = 9;
+   if (uni > 10)
+   {
+   		return -1
+	 }   		
 }
