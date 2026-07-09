@@ -17,14 +17,9 @@ int classify(int n)
     int x = 1;
     x = 2;
     x = 3;
-    if (x != 4)
-    {
-    		//don't do anything
-    }
 }
 
 int newfunction(void)
 {
    print("only prints this");
-   int uni = 9;		
 }
