@@ -20,5 +20,10 @@ int main()
 {
     int result = classifyNumber(5);
     printf("%d\n", result);
+    if (x == 8)
+    {
+        return 1
+    }
+
     return 0;
 }
