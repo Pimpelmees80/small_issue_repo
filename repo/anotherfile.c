@@ -15,7 +15,6 @@ int classify(int n)
         return 4;                 // Zero
     }
     int x = 1;
-    x = 2;
 
     if (x != 4)
     {
@@ -23,7 +22,7 @@ int classify(int n)
     }
 }
 
-int adding(int x, int y)
+int removing(int x, int y)
 {
   //demo
 }
@@ -34,7 +33,7 @@ int otherfunction(int x)
 	{
 			if (x < 10)
 			{				
-                                //just for fun
+				x++;
 			}
 	}
 	else
