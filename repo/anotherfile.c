@@ -16,11 +16,16 @@ int classify(int n)
     }
     int x = 1;
     x = 2;
-    x = 3;
+
     if (x != 4)
     {
     		//do nothing
     }
+}
+
+int adding(int x, int y)
+{
+  //demo
 }
 
 int otherfunction(int x)
@@ -28,8 +33,8 @@ int otherfunction(int x)
 	if (x > 0)
 	{
 			if (x < 10)
-			{
-				x++;
+			{				
+                                //just for fun
 			}
 	}
 	else
