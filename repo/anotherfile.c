@@ -23,12 +23,6 @@ int classify(int n)
     }
 }
 
-int newfunction(void)
-{
-   print("only prints this");
-   int uni = 9;
-}
-
 int otherfunction(int x)
 {
 	if (x > 0)
