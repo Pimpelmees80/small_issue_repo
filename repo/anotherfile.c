@@ -34,6 +34,7 @@ int otherfunction(int x)
 			if (x < 10)
 			{				
 				x++;
+				return -1;
 			}
 	}
 	else
