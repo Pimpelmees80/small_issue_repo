@@ -25,6 +25,7 @@ int classify(int n)
 int removing(int x, int y)
 {
   //demo
+  if (x == NULL) return -1;
 }
 
 int otherfunction(int x)
