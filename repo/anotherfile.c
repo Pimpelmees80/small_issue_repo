@@ -30,12 +30,12 @@ int removing(int x, int y)
 int otherfunction(int x)
 {
 	//comment added
+	y = 9;
 	if (x > 0)
 	{
 			if (x < 10)
 			{				
-				x++;
-				return -1;
+				x++;			
 			}
 	}
 	else
