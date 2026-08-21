@@ -26,7 +26,7 @@ int removing(int x, int y)
 {
   if (x == NULL) return -1;
 	y=9;
-	char *s = "This is going to be removed"
+	
 }
 
 int otherfunction(int x)
@@ -38,6 +38,7 @@ int otherfunction(int x)
 			if (x < 10)
 			{				
 				x++;
+				char *s = "Im created";
 				return -1;			
 			}
 	}
