@@ -22,12 +22,6 @@ int classify(int n)
     }
 }
 
-int removing(int x, int y)
-{
-  if (x == NULL) return -1;
-	y=9;
-	
-}
 
 int otherfunction(int x)
 {
