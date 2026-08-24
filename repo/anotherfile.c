@@ -39,6 +39,7 @@ int otherfunction(int x)
 	{
 			if (x < 10)
 			{				
+				y = 7;
 				x++;
 				char *s = "Im created";
 				return -1;			
