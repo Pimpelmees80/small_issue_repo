@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <some.h>
 
 int classify(int n)
 {
@@ -16,17 +17,18 @@ int classify(int n)
     }
     int x = 1;
 
-    if (x != 4)
-    {
-    		//do nothing
-    }
+
 }
 
 int removing(int x, int y)
 {
   if (x == NULL) return -1;
 	y=9;
-	
+	if (y >8)
+	{
+		print("hooray")
+	}
+		
 }
 
 int otherfunction(int x)
