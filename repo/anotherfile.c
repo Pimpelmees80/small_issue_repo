@@ -28,13 +28,17 @@ int removing(int x, int y)
 	{
 		print("hooray")
 	}
+	
+	if (x== 5)
+	{
+		//do nothing
+	}
 		
 }
 
 int otherfunction(int x)
 {
 	//comment added
-	y = 9;
 	if (x > 0)
 	{
 			if (x < 10)
