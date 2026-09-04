@@ -47,6 +47,8 @@ int otherfunction(int x)
 				x++;
 				char *s = "Im created";
 				return -1;			
+			} else {
+				x = 1;
 			}
 	}
 	else
