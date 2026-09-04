@@ -36,6 +36,13 @@ int removing(int x, int y)
 		
 }
 
+void foo(int y)
+{
+	if (y == 0) return -1
+
+	return 10/y		
+}
+
 int otherfunction(int x)
 {
 	//comment added
