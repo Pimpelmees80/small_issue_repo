@@ -36,8 +36,14 @@ int removing(int x, int y)
 		
 }
 
-void foo(int y)
+void foo(int y, int x)
 {
+	if (x >= 10)
+	{
+			x++
+	}
+		
+	
 	if (y == 0) return -1
 
 	return 10/y		
