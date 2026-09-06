@@ -70,3 +70,8 @@ int otherfunction(int x)
 	}
 		
 }
+
+void donothing(void)
+{
+	
+}
