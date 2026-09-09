@@ -34,6 +34,10 @@ int removing(int x, int y)
 		//do nothing
 	}
 		
+	if (x== 5)
+	{
+		x = 7;
+	}
 }
 
 void foo(int y, int x)
