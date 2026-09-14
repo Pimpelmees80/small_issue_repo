@@ -16,7 +16,11 @@ int classify(int n)
         return 4;                 // Zero
     }
     int x = 1;
-
+	
+	while(true)
+	{
+		if(something == 0) break;
+	}
 
 }
 
@@ -34,6 +38,17 @@ int removing(int x, int y)
 	{
 		//do nothing
 	}
+	
+	for(int i = 0; i < 5; i++)
+	{
+		y++;
+		if (y == 7)
+		{
+				continue
+		}
+		if (y < 0){
+			goto thislabel;
+	}
 		
 	if (x== 5)
 	{
@@ -45,9 +60,15 @@ void foo(int y, int x)
 {
 	if (x >= 10)
 	{
-			x++
+			x++;
 	}
 		
+	for(int i = 0; i < 15; i++)
+	{
+		if (x + i == 15) continue;
+		x++;
+			
+	}
 	
 	if (y == 0) return -1
 
