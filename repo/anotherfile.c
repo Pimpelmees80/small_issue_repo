@@ -42,8 +42,8 @@ int removing(int x, int y)
 	for(int i = 0; i < 5; i++)
 	{
 		y++;
-		if (y == 7)
-		{
+		if (i == 7)
+		{			
 				continue
 		}
 		if (y < 0){
