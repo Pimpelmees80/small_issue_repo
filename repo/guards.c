@@ -59,7 +59,7 @@ void printNumbers(int max)
 
     for (int i = 0; i < max; i++)
     {
-        if (i == 5)          // Guard-like loop control
+        if (i == 5)           // Guard-like loop control
             continue;
 
         printf("i = %d\n", i);
