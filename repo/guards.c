@@ -10,22 +10,6 @@ int divide(int a, int b)
     return a / b;
 }
 
-int findFirstPositive(int values[], int size)
-{
-    if (values == NULL)      // Guard
-        return -1;
-
-    if (size <= 0)           // Guard
-        return -1;
-
-    for (int i = 0; i < size; i++)
-    {
-        if (values[i] > 0)
-            return i;
-    }
-
-    return -1;
-}
 
 /* Contains guard and non-guard if-statements */
 int processValue(int value)
