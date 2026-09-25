@@ -10,7 +10,7 @@ int divide(int a, int b)
     return a / b;
 }
 
-int findFirstPositive(int values[], int size)
+int findFirstPositive(int values[], int size, boolean valid)
 {
     if (values == NULL)      // Guard
         return -1;
